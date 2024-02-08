@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    background-image: url('wepik-export-20240208114305uGiR.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+}
+
+
+header {
+   
+    padding: 20px;
+    text-align: left;
+}
+
+
+nav.horizontal-nav {
+    position: fixed;
+    top: 20px; /* Adjust top distance from the top of the screen */
+    right: 0px;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+nav.horizontal-nav ul {
+    list-style-type: none;
+    padding: 0;
+  margin: 0;
+}
+
+nav.horizontal-nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav.horizontal-nav a {
+    color: #D98586;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav.horizontal-nav a:hover {
+    background-color: #ccc;
+}
+
+
+
+main {
+    text-align: center; /* Adjust to match the width of your vertical navigation */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 20px;
+    color: #333;
+}
+
+section {
+    border: none; /* Remove border around section */
+}
+
+.project {
+    border: none; /* Remove border around project divs */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
