@@ -4,7 +4,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-        font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-attachment: fixed;
+        font-family:cursive;
         font-size: large;
         margin: 0;
         padding: 0;
@@ -54,35 +55,95 @@ nav.horizontal-nav a:hover {
 
 
 main {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
     margin: 0;
     padding: 0;
-    text-align: left;
-}
+    position: relative;
 
-.container {
-    max-width: 1100px;
-    margin: 150px auto;
-    padding: 20px;
+}
+.drey {
     text-align: left;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 100px;
+    position: relative;
 }
 
 .box {
-    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
-    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.info {
+    padding-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0; /* Adjusted margin to remove space */
 }
 
 .header h1 {
+    padding-left: 10px;
     margin: 0;
-    font-size: 24px;
+   
 }
 
-.content p {
+.info p {
     margin: 0;
 }
+
+.about-me-box {
+    padding: 20px;
+    margin-right: 280px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 50px; /* Adjust as needed to avoid overlapping with "What do I do?" section */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.skills {
+    display: flex;
+}
+
+.skill-box {
+    padding: 20px;
+    margin-left: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-box h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.skill-box ul {
+    padding: 0;
+    margin: 10px 0 0 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.skill-box ul li {
+    margin-bottom: 5px;
+}
+
+
 
 /*section {
     margin-bottom: 30px;
